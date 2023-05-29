@@ -73,7 +73,7 @@ const app = {
             image: './assets/img/song7.jpg'
         },
         {
-            name: 'Stil with you',
+            name: 'Still with you',
             singer: 'Jungkook',
             path: './assets/music/song8.mp3',
             image: './assets/img/song8.jpg'
