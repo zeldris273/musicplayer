@@ -328,6 +328,8 @@ const app = {
         // Gán cấu hình từ config vào ứng dụng
         this.loadConfig()
         // Định nghĩa các thuộc tính cho Object
+        // Load volume
+        this.volumeLoad()
         this.defineProperties();
         // Lắng nghe xử lí các sự kiến
         this.handleEvents()
@@ -338,8 +340,6 @@ const app = {
         // Hiển thị trạng thái ban đầu của button repeat & random
         randomBtn.classList.toggle('active', this.isRandom)
         reapetBtn.classList.toggle('active', this.isRepeat)
-
-        this.volumeLoad()
     }
 }
 
